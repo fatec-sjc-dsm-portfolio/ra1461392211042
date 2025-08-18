@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BookOpen, Briefcase, FolderGit2, User, Phone } from 'lucide-react';
 
@@ -11,7 +12,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <nav className="bg-white shadow-lg rounded-xl p-4 sticky top-4 h-fit 
+   <nav className="bg-white shadow-lg rounded-xl p-4 sticky top-4 h-fit 
                 md:w-64 md:h-fit md:sticky md:top-4 
                 w-full fixed bottom-0 left-0 md:static z-50">
     <ul className="flex md:flex-col justify-around md:space-y-2 space-x-4 md:space-x-0">
