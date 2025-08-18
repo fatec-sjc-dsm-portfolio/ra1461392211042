@@ -55,7 +55,7 @@ function App() {
               </div>
             </Section>
 
-            <Section id="contact" title="Contact">
+            <Section id="contact" title="Contato">
               <div className="space-y-4">
                 <p className="text-gray-600">
                   <strong className="text-gray-800">Email:</strong> andrefelipecosta493@gmail.com
