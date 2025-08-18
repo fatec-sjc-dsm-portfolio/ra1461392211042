@@ -6,7 +6,7 @@ export default function Header() {
     <header className="bg-white shadow-lg rounded-xl mb-8 animate-fadeIn overflow-hidden">
       <div className="h-64 relative bg-gradient-to-b from-green-700 to-green-800">
         <img
-          src="/assets/img/banner.png"
+          src="/img/banner.png"
           alt="Developer Background"
           className="w-full h-full object-cover opacity-20"
         />
@@ -14,7 +14,7 @@ export default function Header() {
       <div className="px-6 pb-6 relative">
         <div className="flex flex-col items-center -mt-20">
           <img
-            src="/assets/img/me.jpg"
+            src="img/me.jpg"
             alt="Developer Profile"
             className="w-40 h-40 rounded-full object-cover object-top border-4 border-white shadow-xl transition-transform hover:scale-105"
           />

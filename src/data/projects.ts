@@ -4,7 +4,7 @@ export const projects = [
     title: "Sistema de Gestão de Serviços de TI",
     technologies: "Python • HTML 5/CSS 3 • MySql",
     description: "Uma plataforma que facilita a abertura de chamados pelos usuários e o atendimento rápido e organizado pelos técnicos.",
-    imageUrl: "/assets/img/sistemaGestaoTi.png",
+    imageUrl: "/img/sistemaGestaoTi.png",
     link: "https://github.com/MidNight-Tecnology/projeto-integrador-2022-1---FATEC-DSM"
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     title: "Sistema de Gestão Financeira e Comercial",
     technologies: "React • Java • MySql",
     description: "Plataforma desenvolvida para a Pro4Tech, que otimiza o cadastro de títulos e endereços, além de automatizar relatórios de clientes adimplentes e inadimplentes por datas de pagamento, crédito e vencimento.",
-    imageUrl: "/assets/img/sistemaGestaoFinanceira.png",
+    imageUrl: "/img/sistemaGestaoFinanceira.png",
     link: "https://github.com/Equipe-Ace/Ace-documentation"
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     title: "Sistema de Datalogger",
     technologies: "React • Python • C • Arduino",
     description: "Desenvolvimento de uma solução para monitoramento ambiental em tempo real, utilizando Arduino para coleta de dados, C para programação do hardware e Python para processamento e análise de variáveis como temperatura e umidade.",
-    imageUrl: "/assets/img/sistemaDataLogger.png",
+    imageUrl: "/img/sistemaDataLogger.png",
     link: "https://github.com/Equipe-CodeLand/API-2024.2"
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     title: "Sistema de Atendimento com IA",
     technologies: "React • WebSocket • Python",
     description: "Projeto desenvolvido na API do 5º semestre de DSM, com foco na criação e gerenciamento de agentes de inteligência artificial para atendimento interno. A plataforma possibilita a interação com usuários por meio de um chat inteligente.",
-    imageUrl: "/assets/img/sistemaChatBot.png",
+    imageUrl: "/img/sistemaChatBot.png",
     link: "https://github.com/Equipe-CodeLand/API-2025.1"
   }
 ];
