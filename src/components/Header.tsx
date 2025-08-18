@@ -6,7 +6,7 @@ export default function Header() {
     <header className="bg-white shadow-lg rounded-xl mb-8 animate-fadeIn overflow-hidden">
       <div className="h-64 relative bg-gradient-to-b from-green-700 to-green-800">
         <img
-          src="/img/banner.png"
+          src="img/banner.png"
           alt="Developer Background"
           className="w-full h-full object-cover opacity-20"
         />
