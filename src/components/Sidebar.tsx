@@ -5,7 +5,7 @@ import { BookOpen, Briefcase, FolderGit2, User, Phone } from 'lucide-react';
 export default function Sidebar() {
   const sections = [
     { id: 'about', label: 'Sobre Mim', icon: User },
-    { id: 'education', label: 'Formção', icon: BookOpen },
+    { id: 'education', label: 'Formação', icon: BookOpen },
     { id: 'experience', label: 'Experiencia', icon: Briefcase },
     { id: 'projects', label: 'Projetos', icon: FolderGit2 },
     { id: 'contact', label: 'Contato', icon: Phone },

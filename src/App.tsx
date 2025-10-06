@@ -1,8 +1,8 @@
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Section from './components/Section';
-import ProjectCard from './components/ProjectCard';
-import { projects } from './data/projects';
+import {ProjectCard, PersonalProjectCard} from './components/ProjectCard';
+import { projects, personalProjects } from './data/projects';
 
 function App() {
   return (
@@ -51,6 +51,14 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {projects.map((project) => (
                   <ProjectCard key={project.id} {...project} />
+                ))}
+              </div>
+            </Section>
+
+            <Section id="personalProjects" title="Projetos Pessoais">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {personalProjects.map((project) => (
+                  <PersonalProjectCard key={project.id} {...project} />
                 ))}
               </div>
             </Section>

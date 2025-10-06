@@ -32,3 +32,24 @@ export const projects = [
     link: "https://github.com/Equipe-CodeLand/API-2025.1"
   }
 ];
+
+export const personalProjects = [
+  {
+    id: 1,
+    title: "Santos3 - Sistema de Gestão Imobiliária",
+    technologies: "Python • React • MongoDB",
+    description: "Desenvolvido para uma imobiliária, o Santos3 é um sistema completo de gestão de imóveis e clientes, que permite controlar propriedades, acompanhar negociações e gerar relatórios de desempenho de forma intuitiva e eficiente. O projeto foi pensado para otimizar processos internos e melhorar a experiência de atendimento ao cliente, combinando um design moderno com funcionalidades práticas e seguras.",
+    colaboration: "projeto individual",
+    imageUrl: "img/sistemaSantos3.png",
+    link: "https://www.santos3.com.br"
+  },
+  {
+    id: 2,
+    title: "Integração TEF com Delphi",
+    technologies: "Delphi • DLL • API TEF",
+    description: "Microserviço em Delphi para integração com terminais de pagamento (TEF), usando a lib-embed. Suporta transações como crédito/parcelado, débito, cancelamentos e reimpressões, com I/O em JSON e Pinpad USB para testes. Tecnologias: Delphi, API TEF.",
+    colaboration: "Parceria com a startup embed.it, implantado em múltiplos PDVs em vários estados brasileiros, otimizando pagamentos no varejo.",
+    imageUrl: "img/sistemaTef.jpg",
+    link: ""
+  },
+];
