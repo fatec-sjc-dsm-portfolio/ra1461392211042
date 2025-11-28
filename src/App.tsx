@@ -3,8 +3,11 @@ import Sidebar from './components/Sidebar';
 import Section from './components/Section';
 import {ProjectCard, PersonalProjectCard} from './components/ProjectCard';
 import { projects, personalProjects } from './data/projects';
+import {useReveal}  from "./hooks/useReveal";
 
 function App() {
+
+  useReveal();
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 py-8">

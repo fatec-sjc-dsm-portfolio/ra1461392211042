@@ -29,3 +29,15 @@
 .animate-slideUp {
   animation: slideUp 0.5s ease-out;
 }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+/* Quando aparecerem na tela */
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

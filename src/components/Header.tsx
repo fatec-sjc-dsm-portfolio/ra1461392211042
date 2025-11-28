@@ -24,13 +24,13 @@ export default function Header() {
             <h2 className= "text-2xl font-light text-gray-800">Construindo a base para o seu sucesso digital.</h2>
             <br></br>
             <div className="flex gap-6 justify-center">
-              <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+              <a href="https://github.com/fecosta290" className="text-gray-600 hover:text-green-600 transition-colors">
                 <Github className="w-7 h-7" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+              <a href="https://www.linkedin.com/in/andré-felipe-353260243/" className="text-gray-600 hover:text-green-600 transition-colors">
                 <Linkedin className="w-7 h-7" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+              <a href="https://www.instagram.com/fecosta.py/" className="text-gray-600 hover:text-green-600 transition-colors">
                 <Instagram className="w-7 h-7" />
               </a>
             </div>

@@ -1,33 +1,35 @@
-
-import React from 'react';
-import { BookOpen, Briefcase, FolderGit2, User, Phone } from 'lucide-react';
+import React from "react";
 
 export default function Sidebar() {
-  const sections = [
-    { id: 'about', label: 'Sobre Mim', icon: User },
-    { id: 'education', label: 'Formação', icon: BookOpen },
-    { id: 'experience', label: 'Experiencia', icon: Briefcase },
-    { id: 'projects', label: 'Projetos', icon: FolderGit2 },
-    { id: 'contact', label: 'Contato', icon: Phone },
+  const menuItems = [
+    { id: "about", label: "Sobre Mim" },
+    { id: "education", label: "Formação" },
+    { id: "experience", label: "Experiência" },
+    { id: "projects", label: "Projetos Acadêmicos" },
+    { id: "personalProjects", label: "Projetos Pessoais" },
+    { id: "contact", label: "Contato" },
   ];
 
+  const scrollToSection = (id: string) => {
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-   <nav className="bg-white shadow-lg rounded-xl p-4 sticky top-4 h-fit 
-                md:w-64 md:h-fit md:sticky md:top-4 
-                w-full fixed bottom-0 left-0 md:static z-50">
-    <ul className="flex md:flex-col justify-around md:space-y-2 space-x-4 md:space-x-0">
-      {sections.map((section) => (
-        <li key={section.id}>
-          <a
-            href={`#${section.id}`}
-            className="flex items-center gap-2 md:gap-3 p-2 md:p-3 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-all text-sm md:text-base"
+    <aside className="p-4 bg-white shadow-lg rounded-xl h-fit sticky top-6">
+      <nav className="space-y-4">
+        {menuItems.map((item) => (
+          <button
+            key={item.id}
+            onClick={() => scrollToSection(item.id)}
+            className="block w-full text-left text-gray-700 hover:text-green-600 transition animate-fadeIn"
           >
-            <section.icon className="w-5 h-5" />
-            <span className="font-medium hidden md:inline">{section.label}</span>
-          </a>
-        </li>
-      ))}
-    </ul>
-  </nav>
+            {item.label}
+          </button>
+        ))}
+      </nav>
+    </aside>
   );
 }
